@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  ami           = data.aws_ami-0634ac0aab4eb2831
+  ami           = devops-practice-cent8
   instance_type = "t2.micro"
 
   tags = {
