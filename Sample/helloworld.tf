@@ -1,7 +1,6 @@
 resource "aws_instance" "web" {
-  ami           = devops-practice-cent8
+  ami           = ami-0634ac0aab4eb2831
   instance_type = "t2.micro"
-
   tags = {
     Name = "HelloWorld"
   }
